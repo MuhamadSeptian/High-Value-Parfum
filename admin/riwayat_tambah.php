@@ -1,0 +1,68 @@
+<?php include 'header.php'; ?>
+
+<div class="content-wrapper">
+
+  <section class="content-header">
+    <h1>
+      Riwayat
+      <small>Tambah Riwayat Baru</small>
+    </h1>
+    <ol class="breadcrumb">
+      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li class="active">Dashboard</li>
+    </ol>
+  </section>
+
+  <section class="content">
+    <div class="row">
+      <section class="col-lg-6 col-lg-offset-3">       
+        <div class="box box-info">
+
+          <div class="box-header">
+            <h3 class="box-title">Tambah Riwayat</h3>
+            <a href="riwayat.php" class="btn btn-info btn-sm pull-right"><i class="fa fa-reply"></i> &nbsp Kembali</a> 
+          </div>
+          <div class="box-body">
+            <form action="riwayat_act.php" method="post" enctype="multipart/form-data">
+              <div class="form-group">
+                <label>Nama_produk</label>
+                <input type="text" class="form-control" name="nama" required="required" placeholder="Masukkan Nama ..">
+              </div>
+
+              <div class="form-group">
+                  <label>Harga</label>
+                  <input type="price" class="form-control" name="harga" required="required">
+                </div>
+              <div class="form-group">
+                  <label>jumlah</label>
+                  <input type="price" class="form-control" name="jumlah" required="required">
+                </div>
+              <div class="form-group">
+                  <label>Nama_lengkap</label>
+                  <input type="text" class="form-control" name="nama_lengkap" required="required">
+                </div>
+              <div class="form-group">
+                  <label>email</label>
+                  <input type="text" class="form-control" name="email" required="required">
+                </div>
+              <div class="form-group">
+                  <label>Alamat_lengkap</label>
+                  <input type="text" class="form-control" name="alamat_lengkap" required="required">
+                </div>
+              <div class="form-group">
+                  <label>Total</label>
+                  <input type="price" class="form-control" name="total" required="required">
+                </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-sm btn-primary" value="Simpan">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </section>
+
+</div>
+<?php include 'footer.php'; ?>

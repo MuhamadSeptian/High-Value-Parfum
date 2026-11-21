@@ -1,0 +1,141 @@
+
+/* Overall table styling */
+table.table-cart {
+  width: 85%;
+  border-collapse: collapse;
+  margin:  auto; /* Center the table horizontally */
+  border: 3px solid #df6e05;
+  background-color: #f7c566;
+}
+
+/* Table header (thead) styling */
+table.table-cart thead th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #df6e05;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Table body (tbody) styling */
+table.table-cart tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #df6e05;
+}
+
+/* Product image styling */
+table.table-cart tbody td img {
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Quantity input styling */
+table.table-cart tbody td input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+/* Remove button styling */
+table.table-cart tbody td button.btn-hapus {
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Subtotal row styling */
+table.table-cart tfoot td {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Checkout form styling (optional) */
+.pembayaran{
+  width: 85%;
+  border-collapse: collapse;
+  margin:  auto; /* Center the table horizontally */
+  border: 3px solid #fff;
+  background-color: #f7c566;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="email"],
+.checkout-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.checkout-form .kurir-section {
+  margin-bottom: 10px;
+}
+
+.checkout-form .kurir-section input[type="radio"] {
+  margin-right: 5px;
+}
+
+.checkout-form button.btn-checkout {
+  background-color: black; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.checkout-form button.btn-checkout:hover {
+  background-color: black;
+}
+
+
+.ringkasan-pesanan {
+  width: 82%;
+  border-collapse: collapse;
+  margin:  auto; /* Center the table horizontally */
+  border: 3px solid #df6e05;
+  background-color: #f7c566;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.ringkasan-pesanan h2 {
+  margin-bottom: 10px;
+}
+
+.ringkasan-pesanan ul {
+  list-style: none;
+}
+
+.ringkasan-pesanan li {
+  margin-bottom: 10px;
+}
+
+.tindakan {
+  text-align: right;
+}
+
+.tindakan button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tindakan button:hover {
+  background-color: #df6e05;
+}
